@@ -1,4 +1,16 @@
+header {
+    border: 1px solid red;
+}
+
+/* Select all children of the header class and style as inline-block!!!!!!!! */
+
+header>a {
+    display: inline-block;
+}
+
 .logo-text {
+    margin-top: 37px;
+    margin-left: 80px; 
     font-family: 'Montserrat', sans-serif;
     font-style: normal;
     font-weight: 900;
@@ -6,13 +18,108 @@
     line-height: 160%;
     /* or 48px */
     letter-spacing: -0.02em;
-    color: #0A1B32;
-    margin-top: 37px;
-    margin-left: 80px;
+    color: #0A1B32;       
+    border: 1px solid red;
 }
 
 .logo-dot {
     color: #33A2E0
+}
+
+.home-link {
+    margin-top: 48px;
+    margin-left: 98px;    
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height, or 150% */
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #1B0A42;
+}
+
+.about-link {
+    margin-top: 48px;
+    margin-left: 38px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height, or 150% */
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #1B0A42;
+}
+
+.blog-link {
+    margin-top: 48px;
+    margin-left: 40px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height, or 150% */
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #1B0A42;
+}
+
+.contact-link {
+    margin-top: 48px;
+    margin-left: 38px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height, or 150% */
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #1B0A42;
+    border: 1px solid red; 
+}
+
+.sign-in-link {
+    margin-top: 48px;
+    margin-left: 752px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height, or 150% */
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #1B0A42;
+    border: 1px solid red; 
+}
+
+.sign-up-btn {
+    margin-top: 30px;
+    margin-left: 40px;
+    width: 120px;
+    height: 60px;
+    background: #33A2E0;
+    border-radius: 6px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height, or 150% */
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+    border: none;
+}
+
+section {
+    display: inline-block;
+    border: 1px solid red;    
 }
 
 .main-heading {
@@ -27,8 +134,10 @@
     line-height: 76px;
     /* or 106% */
     letter-spacing: 0.02em;
-    color: #1B0A42;   
+    color: #1B0A42;
+    /* border: 1px solid red;      */
 }
+
 .main-text {
     max-width: 583px;
     width: 100%;
@@ -45,6 +154,8 @@
 }
 
 .main-btn {
+    margin-top: 50px;
+    margin-left: 200px;
     width: 152px;
     height: 64px;
     background-color: #33A2E0;
@@ -59,6 +170,4 @@
     letter-spacing: 0.02em;
     color: #FFFFFF;
     border: none;
-    margin-top: 50px;
-    margin-left: 200px;
 }
