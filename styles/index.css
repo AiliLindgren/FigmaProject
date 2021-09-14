@@ -15,6 +15,10 @@
     color: #33A2E0
 }
 
+nav, ul, li {
+    display: inline;
+}
+
 .home-link {
     margin-top: 48px;
     margin-left: 98px;    
@@ -40,7 +44,7 @@
     /* identical to box height, or 150% */
     text-align: center;
     letter-spacing: 0.02em;
-    color: #1B0A42;
+    color: #1B0A42;    
 }
 
 .blog-link {
@@ -156,4 +160,12 @@ section {
     letter-spacing: 0.02em;
     color: #FFFFFF;
     border: none;
+}
+
+a:hover {
+    color: blue
+}
+
+button:hover {
+    background-color: darkblue;
 }
